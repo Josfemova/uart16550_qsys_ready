@@ -142,6 +142,9 @@
  `define UART_DATA_WIDTH 32
 `endif
 
+// Uncomment if using a big endian machine 
+`define LITLE_ENDIAN
+
 // Uncomment this if you want your UART to have
 // 16xBaudrate output port.
 // If defined, the enable signal will be used to drive baudrate_o signal
